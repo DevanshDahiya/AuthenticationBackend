@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000 ;
 
 // Middleware
 app.use(express.json());
-
+// these are the routes to use the backend application 
 app.use("/api/auth" , authRoutes) ;
 app.use("/api/home" , homeRoutes) ;
 app.use("/api/admin" , adminRoutes) ;
