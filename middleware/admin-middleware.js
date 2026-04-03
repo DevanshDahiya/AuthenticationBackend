@@ -7,6 +7,7 @@ const isAdminuser = (req, res, next) =>{
             message : "Access Denied! Admin right required",
         });
     }
+    // to run the next middleware 
     next ();
 }
 
