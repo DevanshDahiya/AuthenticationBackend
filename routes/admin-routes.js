@@ -1,8 +1,8 @@
 // This is for admin access -> 
 
 const express = require("express");
-const authMiddleware = require("../middleware/auth-middleware");
 const router = express.Router() ;
+const authMiddleware = require("../middleware/auth-middleware");
 const adminMiddleware = require("../middleware/admin-middleware");
 
 //  here we are using  authMiddleware , adminMiddleware as a extra layer to first check if the a person is login or not 
